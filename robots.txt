@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://praxis-fuer-gefaessmedizin.de/sitemap.xml
