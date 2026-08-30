@@ -82,3 +82,6 @@ main{padding-bottom:1rem}
 main.inhalt{padding-top:.4rem}
 :focus-visible{outline:3px solid var(--accent); outline-offset:2px}
 @media print{.topbar,nav.haupt,footer.site .links,.hero{display:none}}
+
+/* Inhaltsbilder begrenzen (Portraets/Fotos in Artikeln) */
+section.artikel img{max-height:420px; width:auto; max-width:100%; border-radius:12px}
