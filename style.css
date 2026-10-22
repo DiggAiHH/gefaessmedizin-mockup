@@ -63,6 +63,22 @@ th{background:var(--sec); color:var(--main)}
 .infokasten{background:var(--accent-soft); border-left:4px solid var(--accent); border-radius:0 12px 12px 0; padding:.8rem 1.1rem; margin:1rem 0; max-width:72ch}
 .hinweis-rot{background:#f7e9ee; border-left:4px solid var(--signal); border-radius:0 12px 12px 0; padding:.8rem 1.1rem; margin:1rem 0; max-width:72ch}
 
+/* Online-Rezeption (Patienten) + Zuweiser-Kasten (Hausarztpraxen) */
+.kicker{margin:0 0 .3rem; font-size:.8rem; letter-spacing:.08em; text-transform:uppercase; font-weight:700; color:var(--accent)}
+.rezeption{background:var(--sec); border-left:6px solid var(--main); border-radius:0 12px 12px 0; padding:1.3rem 1.6rem; margin:1.6rem 0; max-width:72ch}
+.rezeption h2,.zuweiser h2,.zuweiser h3{margin:0 0 .3rem}
+.rezeption p{margin:.3rem 0}
+.rezeption .btn{margin-top:.6rem}
+.zuweiser{border:2px solid var(--main); border-radius:12px; padding:1.3rem 1.6rem; margin:2rem 0; max-width:72ch}
+.zuweiser hr{border:0; border-top:1px solid var(--shy); margin:1.4rem 0}
+.knoepfe{display:grid; gap:.8rem; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); margin:1rem 0 0}
+.knopf{display:block; background:var(--main); color:#fff; border-radius:12px; padding:.9rem 1.1rem; text-decoration:none; transition:box-shadow 340ms ease-in-out}
+.knopf:hover{box-shadow:0 0 0 4px var(--accent)}
+.knopf strong{display:block; font-size:1.1rem}
+.knopf span{font-size:.92rem}
+.knopf.notfall{background:var(--signal)}
+.knopf.dunkel{background:var(--ink)}
+
 /* Kontakt-Panel */
 .kontaktpanel{background:var(--sec); margin-top:3rem; padding:2.2rem 0}
 .kontaktpanel .wrap{display:grid; gap:2rem; grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
